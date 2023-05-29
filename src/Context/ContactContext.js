@@ -1,7 +1,7 @@
 import { createContext, useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-axios.defaults.baseURL = "http://127.0.0.1:8000/api/v1/";
+axios.defaults.baseURL = "http://lucasmachadolv.eu1.alfasoft.pt/api/v1/";
 
 const ContactContext = createContext();
 
